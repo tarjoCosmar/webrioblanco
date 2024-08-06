@@ -598,3 +598,35 @@ cursor: pointer;
   height: auto;
   border-radius: 5px;
 }
+
+/*estilos para ala sección nosotros*/
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.team-member {
+  background-color: #f6f8fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
