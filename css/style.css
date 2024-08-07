@@ -644,3 +644,19 @@ cursor: pointer;
   margin-bottom: 20px; /* Espacio entre noticias */
   /* Otros estilos según tu diseño */
 }
+
+/* estilos para el botón de WhatsApp */
+.whatsapp-button {
+  position: fixed;
+  width: 180px;
+  height: 40px;0px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
