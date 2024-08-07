@@ -1,4 +1,6 @@
 @charset "utf-8";
+
+
 .carousel-section {
   width: 100%;
   max-width: 1200px;
@@ -629,4 +631,16 @@ cursor: pointer;
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 10px;
+}
+
+.noticias-container {
+  max-width: 600px; /* Ajusta el ancho según tus preferencias */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px; /* Espacio alrededor del contenedor */
+  border: 1px solid #ccc; /* Borde opcional para visualización */
+}
+
+.noticia {
+  margin-bottom: 20px; /* Espacio entre noticias */
+  /* Otros estilos según tu diseño */
 }
