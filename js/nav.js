@@ -56,3 +56,13 @@ closeDetails.forEach(details => {
 });
 
 
+const whatsappButton = document.querySelector('.whatsapp-button');
+
+whatsappButton.addEventListener('mouseover', () => {
+  whatsappButton.style.color = 'red';
+});
+
+whatsappButton.addEventListener('mouseout', () => {
+  whatsappButton.style.color = 'black';
+});
+
