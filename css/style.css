@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /* Estilos generales */
 .nav {
   .nav {
@@ -135,27 +136,34 @@
 
 /* Estilos para el encabezado */
 header {
-  background-color: #134095;
-  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 60px;
+  text-align: right;
+  background: #1a38bc;
+  color: white;
+  font-size: 75px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  justify-content: space-between;
 }
+
 header h1 {
   position: relative;
   z-index: 1;
   min-height: 100px;
+  margin-right: 20px
+  flex: 1;
 }
 
 header img {
   display: block;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0.5;
+  width:auto;
+  height 100%;
+  vertical-align: middle;
 }
 
 nav {
